@@ -28,7 +28,6 @@ export const slides: SlideType[] = [
                 ],
                 image: require('./images/hero.png'),
                 align: 'center',
-                theme: 'glassWhite', // delete
             },
         ]
     },
