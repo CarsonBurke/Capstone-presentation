@@ -1,4 +1,3 @@
-import society from './images/society.png'
 
 export interface SlideChild {
     title: string
@@ -19,158 +18,110 @@ export interface SlideType {
 
 export const slides: SlideType[] = [
     {
-        BGImage: require('./images/society.png'),
+        BGImage: require('./images/heroBG.png'),
         slideChildren: [
             {
-                title: 'Greek Philosophy and Literature',
+                title: 'Machine Learning Chess With Rust',
                 texts: [
                     `By Carson Burke`,
+                    `Built with Carson Slides™`
                 ],
+                image: require('./images/hero.png'),
+                align: 'center',
+                theme: 'glassWhite', // delete
+            },
+        ]
+    },
+    {
+        BGImage: require('./images/chessBG.jpg'),
+        slideChildren: [
+            {
+                title: 'Purpose',
+                texts: [
+                    `Learn Rust`,
+                    `Improve my understanding of neural networks`,
+                    `Challenge myself`,
+                ],
+                image: require('./images/neuralNetwork.png'),
                 align: 'center',
                 theme: 'glassWhite',
             },
         ]
     },
     {
-        BGImage: require('./images/literature.png'),
+        BGImage: require('./images/code.png'),
         slideChildren: [
             {
-                title: 'Greek Literature',
-                texts: [`Literature was a mainstay of ancient Greek culture, especially in schools and the upper classes`],
-                align: 'center',
-                theme: 'glassWhite',
-            },
-            {
-                title: 'Homer',
+                title: 'Step 1: Learn Rust',
                 texts: [
-                    `Most famous Greek author`,
-                    `Wrote many epics`,
-                    `The Iliad and Odyssey poems explore events of the Trojan War`
+                    `I started knowing basically null Rust`,
+                    `Had to wrap my head functional coding`,
+                    `Talked with professionals who were hard to understand`
                 ],
-                image: require('./images/homer.png'),
-                align: 'right',
-                theme: 'glassWhite',
-            },
-            {
-                title: 'Hesiod',
-                texts: [
-                    `Works and Days explored the life of a Greek peasant`,
-                    `Theogany described the origin of Greek gods and the universe`
-                ],
-                image: require('./images/hesiod.png'),
+                image: require('./images/rustlang.png'),
                 align: 'left',
                 theme: 'glassWhite',
             },
         ]
     },
     {
-        BGImage: require('./images/socrates.png'),
+        BGImage: require('./images/NNCode.png'),
         slideChildren: [
             {
-                title: 'Greek Philosophers',
+                title: 'Step 2: Code Neural Network',
                 texts: [
-                    `Philosophy flourished in ancient Greece`,
-                    'Socrates, Plato, and Aristotle were the most notable',
-                    `Includes science, ethics, religion, knowledge, purpose, genesis and much more`
+                    `Basically an artificial brain`,
+                    `Building upon what I had done before`,
+                    `Struggled with Rust throughout`
                 ],
-                align: 'center',
-                theme: 'glassWhite',
-            },
-            {
-                title: 'Socrates',
-                texts: [
-                    `Created the Socratic Method and Socratic Irony`,
-                    `Very interested in ethics`,
-                    `Thought a good spirit motivated human action`,
-                    `Believed evil was the consequence of ignorance`,
-                    `Was killed for his agnosticism and questioning of gods`,
-                ],
-                image: require('./images/socratesPFP.png'),
-                align: 'left',
-                theme: 'glassWhite',
-            },
-            {
-                title: 'Plato',
-                texts: [
-                `Student of Socrates, documented his work`,
-                `Wrote the first book on political science`,
-                `Prescribed that philosophers should be kings`,
-                `Tutor to Alexander the Great`,
-],
-                image: require('./images/plato.png'),
-                align: 'center',
-                theme: 'glassWhite',
-            },
-            {
-                title: 'Aristotle',
-                texts: [
-                    `Student of Plato`,
-                    `Very interested in biology and science`,
-                    `Created the logical syllogism, still used to date`,
-                    `Established fallacies`,
-                    `Added the "try to prove your theory wrong" part to the scientific method`
-                ],
-                image: require('./images/aristotle.png'),
+                image: require('./images/3b1bNN.png'),
                 align: 'right',
                 theme: 'glassWhite',
             },
         ]
     },
     {
-        BGImage: require('./images/philosphy.jpg'),
+        BGImage: require('./images/chessBig.png'),
         slideChildren: [
             {
-                title: 'Greek Philosophical Concepts',
-                align: 'center',
-                theme: 'glassWhite',
-            },
-            {
-                title: 'Socratic Method',
+                title: 'Step 3: Chess',
                 texts: [
-                    `Expose inconsistent arguments and ignorance through a series of targetted questions`
+                    `Suprisingly hard to code`,
+                    `Massive code problems with ownership`,
+                    `Struggled motivation`,
                 ],
-                image: require('./images/why.png'),
-                align: 'right',
-                theme: 'glassWhite',
-            },
-            {
-                title: 'Socratic Irony',
-                texts: [
-                    `Faming ignorance to draw out arguments to apply the socratic method to`,
-                    `"Explain to me how the flat earth works"`
-                ],
-                image: require('./images/smallbrain.png'),
-                align: 'center',
-                theme: 'glassWhite',
-            },
-            {
-                title: 'Logical Syllogism',
-                texts: [
-                    `A series of premises leading to a conclusion`,
-                    `Allows you to make arguments with a clear structure`,
-                    `1. All humans have a brain 2. Carson is a human 3. therefore Carson has a brain`
-            ],
-                image: require('./images/aristotle2.png'),
-                align: 'left',
-                theme: 'glassWhite',
-            },
-            {
-                title: 'Fallacies',
-                texts: [
-                    `Illogical arguments that often sound convincing`,
-                    `"Everyone I know says fentanyl is safe, therefore it is safe"`
-                ],
-                image: require('./images/fallacy.png'),
                 align: 'center',
                 theme: 'glassWhite',
             },
         ]
     },
     {
-        BGImage: require('./images/platoAcademy.png'),
+        BGImage: require('./images/chessRun.png'),
         slideChildren: [
             {
-                title: 'The End',
+                title: 'Step 4: Combination',
+                texts: [
+                    `Tournament system`,
+                    `Inputing and running neural networks`,
+                    `Genetic algorithm`,
+                    `Planning and learning paid off`,
+                ],
+                image: require('./images/unitCode.png'),
+                align: 'center',
+                theme: 'glassWhite',
+            },
+        ]
+    },
+    {
+        BGImage: require('./images/bigNN.png'),
+        slideChildren: [
+            {
+                title: 'Conclusion',
+                texts: [
+                    `Doesn't run fast enough to learn (not even close)`,
+                    `Rust was a huge challenge - required help, thought, and refactoring`,
+                    `Accomplished what I wanted, within reason`,
+                ],
                 align: 'center',
                 theme: 'glassWhite',
             },
