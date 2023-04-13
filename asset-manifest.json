@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Capstone-presentation/static/css/main.442db69c.css",
-    "main.js": "/Capstone-presentation/static/js/main.695045dc.js",
+    "main.js": "/Capstone-presentation/static/js/main.6d0e53e4.js",
     "static/media/chessBG.jpg": "/Capstone-presentation/static/media/chessBG.4dac11fd0b3060707d5b.jpg",
     "static/media/chessBig.png": "/Capstone-presentation/static/media/chessBig.5a3e8158844a661b4891.png",
     "static/media/heroBG.png": "/Capstone-presentation/static/media/heroBG.37f9618ac10afa3bfcdd.png",
@@ -16,10 +16,10 @@
     "static/media/chessRun.png": "/Capstone-presentation/static/media/chessRun.7afe95aef00e2956c439.png",
     "index.html": "/Capstone-presentation/index.html",
     "main.442db69c.css.map": "/Capstone-presentation/static/css/main.442db69c.css.map",
-    "main.695045dc.js.map": "/Capstone-presentation/static/js/main.695045dc.js.map"
+    "main.6d0e53e4.js.map": "/Capstone-presentation/static/js/main.6d0e53e4.js.map"
   },
   "entrypoints": [
     "static/css/main.442db69c.css",
-    "static/js/main.695045dc.js"
+    "static/js/main.6d0e53e4.js"
   ]
 }
